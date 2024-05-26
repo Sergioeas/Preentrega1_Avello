@@ -19,7 +19,7 @@ while (option != 0) {
     if (option == 1) {
         alert("Hay " + disponibilidad + " almohadas disponibles en bodega.-");
     } else if (option == 2) {
-        let retiro = parseInt(prompt("Ingrese la cantidad de almohadas vendidas o retirads.-"));
+        let retiro = parseInt(prompt("Ingrese la cantidad de almohadas vendidas o retiradas.-"));
         if (isNaN(retiro) || retiro < 0) {
             alert("Por favor ingrese una cantidad válida.-");
         } else if (retiro > disponibilidad) {
