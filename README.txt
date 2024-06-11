@@ -12,5 +12,5 @@ las propiedades de un objeto de un array
 -Posee un array (que es donde agrupe ambos productos)
 
 -Y finalmente utilicé un metodo de busqueda y filtrado de arrays para mostrar en la opcion 5 los elementos del 
- array en un "alert"
+ array en un "alert".
 
