@@ -1,9 +1,16 @@
 Hola! mucho gusto saludarte:
 
-En esta primera he creado una pequeña aplicación de inventario de bodega.
+En esta segunda entrega he mejorado mi aplicacion de inventario de bodega
 
-Usando una pequeña función para crear el nombre del usuario.
+-Posee variables de JS
 
-Asi como también añadiendo algoritmos condicionales y de ciclo para lo que es el menú, 
-el cual tiene la propiedad de sumar o restar elementos de su inventario.
+-Posee funciones de suma y resta, asi como tambien una funcion para mostrar 
+las propiedades de un objeto de un array
+
+-Posee objetos (almohadas y colchones)
+
+-Posee un array (que es donde agrupe ambos productos)
+
+-Y finalmente utilicé un metodo de busqueda y filtrado de arrays para mostrar en la opcion 5 los elementos del 
+ array en un "alert"
 

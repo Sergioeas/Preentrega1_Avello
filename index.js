@@ -61,7 +61,7 @@ let nombreUsuario = usuario(prompt("Ingrese su primer nombre"), prompt("Ingrese 
 
 
 while (option != 0) {
-    option = parseInt(prompt("Usuario :" + nombreUsuario + " \n\n Menú de inventario \n\n Ingrese una opción \n 1.-Disponibilidad de producto \n 2.-Salida de productos \n 3.- Ingreso de productos\n 4.- Ver detalle de productos \n 0.- Salir"
+    option = parseInt(prompt("Usuario :" + nombreUsuario + " \n\n Menú de inventario \n\n Ingrese una opción \n 1.-Disponibilidad de producto \n 2.-Salida de productos \n 3.- Ingreso de productos\n 4.- Ver detalle de productos\n 5.- Ver productos simplificado\n 0.- Salir"
     ))
 
     if (isNaN(option)) {
@@ -177,6 +177,11 @@ while (option != 0) {
 
 
 //__________________ YA AQUI DEFINO EL METODO DE CIERRE DE LA APLICACION 
+
+    } else if (option == 5) {
+
+        let productosLista = productosArray.map(producto => `- ${producto.nombre}`).join('\n');
+        alert(productosLista);
 
     } else if (option == 0) {
 
